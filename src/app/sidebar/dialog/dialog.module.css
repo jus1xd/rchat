@@ -1,0 +1,79 @@
+.dialog {
+    width: 100%;
+    background-color: #26365A;
+    padding: 13px 10px 13px 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.dialog__avatar {
+    position: relative;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    background: url('https://sun9-27.userapi.com/impf/c855724/v855724023/c8bd5/f_bYhOObt2U.jpg?size=400x400&quality=96&sign=288881beac73b3a087939679cc203d9d&type=album') center no-repeat;
+    background-size: cover;
+}
+
+.online {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+
+    right: 0;
+    bottom: 0;
+
+    border-radius: 50%;
+    background-color: rgb(48, 219, 71);
+    border: 2px solid #fff
+}
+
+.dialog__text {
+    margin-left: 10px;
+}
+
+.text__name {
+    font-weight: 500;
+}
+
+.text__message {
+    opacity: .8;
+}
+
+.high__level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.low__level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog__content {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.message__date {
+    font-size: 14px;
+}
+
+.message__counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    
+    background-color: rgb(48, 74, 219);
+    border: 2px solid #fff
+}
+
+.message__counter div {
+    font-size: 12px;
+}
+    
