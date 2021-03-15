@@ -1,0 +1,55 @@
+.message__author {
+    background: url('https://sun9-27.userapi.com/impf/c855724/v855724023/c8bd5/f_bYhOObt2U.jpg?size=400x400&quality=96&sign=288881beac73b3a087939679cc203d9d&type=album') center no-repeat;
+    background-size: 100%;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    margin-right: 10px;
+
+    margin-top: auto;
+    margin-bottom: 20px;
+
+    float: left;
+}
+
+.own .message__author {
+    float: right;
+    margin-left: 10px;
+}
+
+.own .message__wrapper {
+    margin-right: -40px;
+}
+
+.message__wrapper {
+    margin-left: -40px;
+    margin-top: auto;
+}
+
+.own .message__inner {
+    float: right;
+}
+
+.own .message__date {
+    width: max-content;
+    margin-left: auto;
+}
+
+.message__content {
+    display: inline-block;
+    background-color: #3674FF;
+    padding: 15px 20px;
+    border-radius: 15px 15px 15px 0px;
+}
+
+.message__date {
+    margin: 10px 0px;
+}
+
+.own .message__content {
+    color: black;
+    background-color: #fff;
+    border-radius: 15px 15px 0px 15px;
+}

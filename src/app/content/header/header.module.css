@@ -1,0 +1,30 @@
+.header__wrapper {
+   display: flex;
+   justify-content: center;
+
+   border-bottom: 1px solid #2B3865;
+}
+.header__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.header__userstatus {
+   display: flex;
+   align-items: center;
+}
+.online {
+   opacity: 0.3;
+}
+.header__username {
+   margin-top: 14px;
+}
+.header__online {
+   margin-top: 3px;
+   margin-right: 5px;
+   border-radius: 50%;
+   opacity: 1;
+   height: 6px;
+   width: 6px;
+   background: #00c980;
+}
