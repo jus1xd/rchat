@@ -1,8 +1,8 @@
 import React from 'react';
-import ChatInput from '../chat-input/chat-input';
+import ChatInput from './chat-input/chat-input';
 
-import Header from '../header/header';
-import Messages from '../messages/messages';
+import Header from './header/header';
+import Messages from './messages/messages';
 
 import s from './content.module.css'
 

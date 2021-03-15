@@ -48,6 +48,8 @@
 .low__level {
     display: flex;
     justify-content: space-between;
+
+    position: relative;
 }
 
 .dialog__content {
@@ -62,15 +64,19 @@
 
 .message__counter {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 
     border-radius: 50%;
     
     background-color: rgb(48, 74, 219);
-    border: 2px solid #fff
+    border: 2px solid #fff;
+
+    right: 0;
+    top: 3px;
 }
 
 .message__counter div {
