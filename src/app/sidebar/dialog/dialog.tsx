@@ -2,8 +2,9 @@ import React from 'react';
 
 import s from './dialog.module.css';
 
+type TOwnProps = {id?: number}
 
-const Dialog: React.FC = (): JSX.Element => {
+const Dialog: React.FC<TOwnProps> = ({id}): JSX.Element => {
     return (
         <div className={s.dialog}>
             <div className={s.dialog__avatar}>

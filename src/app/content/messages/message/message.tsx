@@ -4,7 +4,6 @@ import s from './message.module.css';
 type TOwnProps = {own?: boolean}
 
 
-
 const Message: React.FC<TOwnProps> = ({own}): JSX.Element => {
 
     return (

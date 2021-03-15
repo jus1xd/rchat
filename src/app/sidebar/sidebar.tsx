@@ -7,7 +7,9 @@ import search from '../../img/sidebar/search.svg'
 import Dialog from './dialog/dialog';
 
 
-const Sidebar: React.FC = (): JSX.Element => {
+
+
+const Sidebar: React.FC = ({}): JSX.Element => {
     return (
         <div className={s.sidebar}>
             <div className={s.sidebar__header}>
@@ -25,7 +27,11 @@ const Sidebar: React.FC = (): JSX.Element => {
                     <input className={s.main__input} placeholder='Поиск среди компонентов' type="text"/>
                 </div>
                 <div className={s.dialogs}>
-                    <Dialog />
+                    <Dialog id={1}/>
+                    <Dialog id={2}/>
+                    <Dialog id={3}/>
+                    <Dialog id={4}/>
+                    <Dialog id={5}/>
                 </div>  
             </div>
         </div>
