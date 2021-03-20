@@ -1,29 +1,46 @@
 .chat__input {
    display: flex;
-   align-items: center;
-   background: #243048;
-   /* border: 1px solid #e9e9e9; */
+   align-items: flex-end;
+   background: #192131;
    border-radius: 4px;
    max-width: 90%;
    width: 100%;
-   min-height: 15px;
-   height: 60%;
-   margin: 29px 30px 36px 30px;
+   
    margin: 0 auto;
+   height: 70%;
+   margin-bottom: 20px;
 }
+
 .chat__input__btn {
    display: flex;
-   align-items: center;
+   align-items: flex-end;
+   /* margin-top: auto; */
 }
+
 .input {
-   color: black;
+   display: flex;
+   align-items: center;
+   color: rgb(255, 255, 255);
    max-width: 100%;
    width: 100%;
+   background: #24304800;
    border: none;
-   background: #243048;
-   -webkit-appearance: none;
+   overflow-y: auto;
+   word-wrap: break-word;
+   word-break: break-all;
+   margin: auto 0;
    margin-left: 15px;
+   margin-right: 15px;
+
+   height: 100%;
+
+   padding: 10px 10px;
 }
+
+.input::placeholder {
+   color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), 0.8);
+}
+
 .camera {
    color: white;
    width: 21px;
@@ -41,13 +58,13 @@
    margin-right: 15px;
 }
 .clip {
+   margin: auto 0;
    margin-left: 14px;
    width: 21px;
-   margin-top: 2px;
    height: 18px;
 }
 .chat__input__btn {
-   margin-top: 2px;
+   /* margin-bottom: 10px; */
    display: flex;
    align-items: center;
    align-self: center;

@@ -9,7 +9,7 @@ import Dialog from './dialog/dialog';
 
 
 
-const Sidebar: React.FC = ({}): JSX.Element => {
+const Sidebar: React.FC = (): JSX.Element => {
     return (
         <div className={s.sidebar}>
             <div className={s.sidebar__header}>
